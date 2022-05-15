@@ -1,0 +1,86 @@
+/* mobile setting */
+
+
+.navbar-brand>img {
+    height: 60px;
+}
+
+#left-img-right-text {
+    text-align: center;  
+}
+
+.card-img-top {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+}
+
+.rounded-3 {
+    border-radius: 12px !important;
+}
+
+.rounded-top {
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+.btn {
+    width: 130px;
+}
+
+footer {
+    margin: 0 0 -50px 0;
+}
+
+.delivery > li> img {
+    height: 40px;
+}
+
+.social-media {
+    font-size: 30px;
+}
+
+#btn-locate {
+    width: 115px;
+}
+
+.btn-primary {
+    background-color: rgb(165, 118, 42);
+    border: 1px solid rgb(165, 118, 42);
+}
+
+.btn-primary:hover {
+    background-color: rgb(186, 134, 52);
+    border: 1px solid rgb(186, 134, 52);
+}
+
+/* ipad 768px */
+@media screen and (min-width: 768px) {
+
+    .card-img-top {
+        height: 20vw;
+    }
+
+    #left-img-right-text {
+        text-align: left;
+    }
+}
+
+/* 992px */
+@media screen and (min-width: 992px) {
+
+    .card-img-top {
+        height: 20vw;
+    }
+
+
+}
+
+/* 1200px */
+@media screen and (min-width: 1200px) {
+    
+}
+
+/* 1400px */
+@media screen and (min-width: 1400px) {
+    
+}
