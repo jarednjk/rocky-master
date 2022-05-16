@@ -48,9 +48,24 @@ footer {
     border: 1px solid rgb(165, 118, 42);
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:focus {
+    box-shadow: none;
     background-color: rgb(186, 134, 52);
     border: 1px solid rgb(186, 134, 52);
+}
+
+/* accordion */
+
+.accordion-button:not(.collapsed) {
+    color: white;
+     background-color: rgb(165, 118, 42);
+     border: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
 }
 
 /* ipad 768px */
@@ -63,6 +78,10 @@ footer {
     #left-img-right-text {
         text-align: left;
     }
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
 /* 992px */
