@@ -56,6 +56,14 @@ footer {
     border: 1px solid rgb(186, 134, 52);
 }
 
+a,
+a:hover,
+a:active,
+a:focus {
+    color: black;
+}
+
+
 /* accordion */
 
 .accordion-button:not(.collapsed) {
