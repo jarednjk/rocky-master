@@ -22,7 +22,7 @@ This attracts users to patronise the restaurants if they like what they see on t
 
 ### Justification for the App
 
-The main purpose of creating this front-end landing page is to refresh the old website that is not mobile-responsive. the original website can be found [here](https://www.rockymaster.com.sg/).
+The main purpose of creating this front-end landing page is to refresh the old website that is not mobile-responsive. Apart from the main page, we also improved the user experience for the 'Locate Us' page and 'Contact Us' page. the original website can be found [here](https://www.rockymaster.com.sg/).
 
 ## Technologies Used
 
@@ -39,3 +39,5 @@ The main purpose of creating this front-end landing page is to refresh the old w
 - Visual Studio Code
 
 ## Deployment
+
+This is deployed using github pages.
