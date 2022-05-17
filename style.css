@@ -63,6 +63,16 @@ a:focus {
     color: black;
 }
 
+/* .form-control:focus {
+    box-shadow: none;
+}
+
+.form-control:focus,
+.form-control:active,
+.form-control:hover {
+    border-color: rgb(165, 118, 42) !important;
+    box-shadow: rgb(165, 118, 42) !important;
+} */
 
 /* accordion */
 
